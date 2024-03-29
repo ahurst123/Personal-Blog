@@ -21,3 +21,6 @@ function switchTheme(e){
 
 toggleswitch.addEventListener('change', switchTheme, false);
 
+userNameBox.addEventListener('click', function() {
+    localStorage.setItem('Username', username);
+});
